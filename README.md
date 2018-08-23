@@ -20,7 +20,7 @@ Fill in Twitter api credentials
 #### Start Flask App
 ```
 cd twitter-sentiment/
-python api.py
+python crawler.py
 ```
 
 ## Built With
