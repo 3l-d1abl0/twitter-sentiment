@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+   <body>
+
+     <div>
+       <p><a href="http://localhost:8000/tweets/ico" target="_blank">#ico</a></p>
+       <p><a href="http://localhost:8000/tweets/ethereum" target="_blank">#ethereum</a></p>
+       <p><a href="http://localhost:8000/tweets/crowdfunding" target="_blank">#crowdfunding</a></p>
+       <p><a href="http://localhost:8000/tweets/medicaid" target="_blank">#medicaid</a></p>
+     </div>
+      <h1>#{{ data }}</h1>
+      {% for i in range(length) %}
+        <p>{{ tweets[i] }}</p>
+        <p><strong>{{ sent[i] }}</strong></p>
+      {% endfor %}
+
+   </body>
+</html>
